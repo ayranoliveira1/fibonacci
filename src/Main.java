@@ -30,10 +30,9 @@ public class Main {
 
         if (fibonacci(numero)) {
             System.out.println("O número " + numero + " pertence à sequência Fibonacci" );
+            return;
         }
-        else {
-            System.out.println("O número " + numero + " não pertence à sequência Fibonacci" );
-        }
+        System.out.println("O número " + numero + " não pertence à sequência Fibonacci");
     }
 
 }
